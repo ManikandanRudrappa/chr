@@ -16,7 +16,7 @@ public class Launchchrome
 
 	public static void main(String[] args) 
 	{
-		System.setProperty("webdriver.chrome.driver","D:\\Eclipse_Workspace\\Sdet\\src\\main\\java\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
